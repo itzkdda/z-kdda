@@ -1,0 +1,54 @@
+body {
+	background-color:white;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #800000; /* Dark maroon for body text */
+	text-align: center; /* Keeps paragraphs left-aligned */
+}
+h1 {
+	display: inline-block;	/* Shrinks width to fit text */
+	background-color: lightblue;/* Background only around text */
+	font-size: 32p;
+	color: red; /*Bright red text */
+	padding: 5px 10px; /* Space around the text */
+	margin: 20px auto; /*Centers the h1 horizontally */
+	text-align: center; /*Centers text inside the h1 box */
+}
+h2 {
+	display: inline-block;	/* Shrinks width to fit text */
+	background-color: lightblue;/* Background only around text */
+	font-size: 32p;
+	color: red; /*Bright red text */
+	padding: 5px 10px; /* Space around the text */
+	margin: 20px auto; /*Centers the h1 horizontally */
+	text-align: center; /*Centers text inside the h1 box */
+}
+p}
+ font-family:"Times New Roman", Times, serif;
+ font-size: 12pt; 	/*or 12px depending on requirement */
+ color: black;
+ text-align: left;
+}
+p.shrt{
+   display: inline-block;	/* Shrinks width to fit content */
+   background-color: lightyellow; /* Optional: highlight it */
+   width: 600px;	/* Fixed width of container */
+   padding: 5px 10px;	/* Optional spacing around text */
+   margin: 10px 0;	/* Vertical spacing */
+   text-align: center;
+}
+.row {
+   display: flex;	/* Enables horizontal layout */
+   gap: 20px;		/* Optionl space between paragraphs */
+}
+img { 
+  display: block;	/* Makes the image act as a block element */
+  float: left;	/* Aligns the image to the left */
+  margin: 0 15px 15px 0;/* Adds space around image: top right bottom left */
+}
+p {
+
+}
+li {
+ text-align: left;
+}
